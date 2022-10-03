@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: #ecf2fe;
+}
+
+a {
+    color: #031320;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(226, 109, 74);
+}
+
+body {
+    background-color: #ecf2fe;
+}
+
+.content-project {
+    display: flex;
+    width: 100%;
+    background-color: #ef5d50;
+    ;
+    align-items: center;
+    height: 85.4vh;
+    justify-content: space-around;
+
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+
+.projeto1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.imagem-seta{
+    width: 550px;
+    height: 550px;
+    margin-top: 10px;
+}
+
+
+.projeto2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 150px;
+    margin-top: 25px;
+    border-radius: 20px;
+
+
+}
+
+.botao {
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: #ef5d50;
+    border: #ef5d50 1px solid;
+    border-radius: 20px;
+}
+
+.botao a {
+    color: white;
+}
+
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ecf2fe;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}

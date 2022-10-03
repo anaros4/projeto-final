@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: #ecf2fe;
+    color: #ef5d50;
+}
+
+a {
+    color: #031320;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(226, 109, 74);
+}
+
+body {
+    background-color: #ecf2fe;
+}
+
+.corpo-pagina {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3241e4;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.campo{
+    width: 330px;
+
+}
+
+textarea{
+    width: 275px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: none;
+    border-radius: solid #D1D1D1 1px;
+
+}
+
+input{
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 275px;
+    border: none;
+    border-bottom: solid #D1D1D1 1px ;
+    padding-top: 5px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+
+.botao{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #ef5d50;
+    border: #ef5d50 1px solid;
+    color: white;
+    border-radius: 20px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ecf2fe;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}

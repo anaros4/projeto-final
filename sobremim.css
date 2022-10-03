@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #08104d;
+    width: 100%;
+    height: 100vh;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: #ecf2fe;
+}
+
+a {
+    color: #031320;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(226, 109, 74);
+}
+
+header img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(226, 109, 74);
+    margin-right: 100px ;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.nome-cargo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(226, 109, 74);
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(226, 109, 74);
+}
+
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.forma-curso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;;
+}
+
+.formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px; 
+    padding: 30px;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ecf2fe;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px; 
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ecf2fe;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+
+
+nav a:hover {
+    color: rgb(226, 109, 74);
+}
